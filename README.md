@@ -1,2 +1,3 @@
-# code-mesh.github.io
+# Code Mesh
+
 Official Website of Code Mesh
