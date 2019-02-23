@@ -11,7 +11,9 @@ export default () => (
 //   color="black"
   fixed="null"
   active="true"
-  transparent="true"
+//   transparent="true"
+//   navbar-item-hover-background-color="black"
+//   navbar-item-hover-color="black"
 >
   <Navbar.Brand>
     <Navbar.Item renderAs="a" href="#">
@@ -31,7 +33,7 @@ export default () => (
     }
     />
   </Navbar.Brand>
-  <Navbar.Menu active="open">
+  <Navbar.Menu active="">
     <Navbar.Container>
       <Navbar.Item href="#">Second</Navbar.Item>
       <Navbar.Item href="#">Third</Navbar.Item>
