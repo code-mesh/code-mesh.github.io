@@ -1,19 +1,12 @@
 import React from 'react';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import { Navbar } from 'react-bulma-components';
-// import { Button } from 'react-bulma-components';
 
 export default () => (
     <div>
-
-  {/* <Button color="primary">My Bulma button</Button> */}
   <Navbar
-//   color="black"
   fixed="null"
   active="true"
-//   transparent="true"
-//   navbar-item-hover-background-color="black"
-//   navbar-item-hover-color="black"
 >
   <Navbar.Brand>
     <Navbar.Item renderAs="a" href="#">

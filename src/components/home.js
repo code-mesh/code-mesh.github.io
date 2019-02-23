@@ -4,9 +4,6 @@ import Title from './title.js';
 
 export default () => (
     <div>
-
-
-
 <div class="columns is-desktop">
   <div class="column is-half">
     Big image here
