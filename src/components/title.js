@@ -1,7 +1,7 @@
 import React from 'react';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 // import { Navbar } from 'react-bulma-components';
-import { Section, Container ,Heading  } from 'react-bulma-components';
+import { Heading  } from 'react-bulma-components';
 // import { Navbar } from 'react-bulma-components';
 // import { Navbar } from 'react-bulma-components';
 // import { Button } from 'react-bulma-components';

@@ -5,6 +5,7 @@ import NavBar from './components/navBar.js';
 import Home from './components/home.js';
 // import Section2 from './components/section2.js';
 import Section3 from './components/section3.js';
+import Footer from './components/footer.js';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Home/>
         {/* <Section2/> */}
         <Section3/>
+        <Footer/>
       </div>
     );
   }
