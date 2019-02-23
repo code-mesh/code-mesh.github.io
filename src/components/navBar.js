@@ -1,12 +1,47 @@
-import React from 'react'
+import React from 'react';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
-
+import { Navbar } from 'react-bulma-components';
 // import { Button } from 'react-bulma-components';
 
-// import { Field, Control } from 'react-bulma-components/lib/components/form';
-// import Button from 'react-bulma-components/lib/components/button';
-// import Navbar from 'react-bulma-components/lib/components/navbar';
-
 export default () => (
-  <Button color="primary">My Bulma button</Button>
+    <div>
+
+  {/* <Button color="primary">My Bulma button</Button> */}
+  <Navbar
+//   color="black"
+  fixed="null"
+  active="true"
+  transparent="true"
+>
+  <Navbar.Brand>
+    <Navbar.Item renderAs="a" href="#">
+      <img
+        src="https://bulma.io/images/bulma-logo.png"
+        alt="Bulma: a modern CSS framework based on Flexbox"
+        width="112"
+        height="28"
+        />
+    </Navbar.Item>
+    <Navbar.Burger
+      active="open"
+      onClick={() =>
+        this.setState(state => {
+            // open: !state.open;
+        })
+    }
+    />
+  </Navbar.Brand>
+  <Navbar.Menu active="open">
+    <Navbar.Container>
+      <Navbar.Item href="#">Second</Navbar.Item>
+      <Navbar.Item href="#">Third</Navbar.Item>
+      <Navbar.Item href="#">Fourth</Navbar.Item>
+      <Navbar.Item href="#">Fifth</Navbar.Item>
+    </Navbar.Container>
+    <Navbar.Container position="end">
+      <Navbar.Item href="#">At the end</Navbar.Item>
+    </Navbar.Container>
+  </Navbar.Menu>
+</Navbar>
+    </div>
 )
