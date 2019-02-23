@@ -39,7 +39,7 @@ export default () => (
       <Navbar.Item href="#">Fifth</Navbar.Item>
     </Navbar.Container>
     <Navbar.Container position="end">
-      <Navbar.Item href="#">At the end</Navbar.Item>
+      <Navbar.Item href="#">Contact Us</Navbar.Item>
     </Navbar.Container>
   </Navbar.Menu>
 </Navbar>

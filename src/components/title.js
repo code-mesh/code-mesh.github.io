@@ -5,21 +5,18 @@ import { Section, Container ,Heading  } from 'react-bulma-components';
 // import { Navbar } from 'react-bulma-components';
 // import { Navbar } from 'react-bulma-components';
 // import { Button } from 'react-bulma-components';
-import Title from './title.js';
 
 export default () => (
     <div>
 
 
 
-<div class="columns is-desktop">
-  <div class="column is-half">
-    Big image here
-  </div>
-  <div class="column is-half">
-    <Title/>
-  </div>
-
-</div>
+{/* <Container> */}
+  <Heading class="title is-1">Title</Heading>
+  <Heading subtitle>
+    we are great <br/>  <strong>way too great</strong><br/> damn great and join us
+    reading
+  </Heading>
+{/* </Container> */}
     </div>
 )

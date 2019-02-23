@@ -5,21 +5,20 @@ import { Section, Container ,Heading  } from 'react-bulma-components';
 // import { Navbar } from 'react-bulma-components';
 // import { Navbar } from 'react-bulma-components';
 // import { Button } from 'react-bulma-components';
-import Title from './title.js';
 
 export default () => (
     <div>
 
 
 
-<div class="columns is-desktop">
-  <div class="column is-half">
-    Big image here
-  </div>
-  <div class="column is-half">
-    <Title/>
-  </div>
-
-</div>
+<Section size="medium">
+<Container>
+  <Heading>Section</Heading>
+  <Heading subtitle>
+    A simple container to divide your page into <strong>sections</strong>, like the one you are currently
+    reading
+  </Heading>
+</Container>
+</Section>
     </div>
 )
